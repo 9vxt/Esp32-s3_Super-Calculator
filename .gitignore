@@ -67,3 +67,32 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# === PlatformIO Build Outputs ===
+.pio/
+.pioenvs/
+.piolibdeps/
+*.bin
+*.elf
+*.hex
+
+# === VS Code / Codespaces Settings ===
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/c_cpp_properties.json
+.devcontainer/
+
+# === OS Generated Files ===
+.DS_Store
+Thumbs.db
+
+# === CMake / ESP-IDF (เผื่อสลับไปใช้ ESP-IDF) ===
+build/
+sdkconfig
+sdkconfig.old
+
+# === C/C++ Compiled Objects ===
+*.o
+*.a
+*.so
